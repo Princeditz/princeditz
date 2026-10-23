@@ -1,3 +1,3 @@
-# princeditz.github.io
+# princeditz
 
 
