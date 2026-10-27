@@ -846,9 +846,7 @@ footer strong{
         <a href="#home" class="brand">
 
             <img
-  src="https://raw.githubusercontent.com/Princeditz/princeeditz.github.io/342e130e97324accc4c9c2b956b931938c24aa6b/IMG_8256.jpg"
-  alt="PRINCE EDITZ Profile Picture"
->
+  <img src="https://raw.githubusercontent.com/Princeditz/princeditz/67f0f85858b8b7ced34457cde6d3a0c062e783d4/FCE79F9F-E2BC-4FBA-98AD-DDFDE0889778.png" alt="PRINCE EDITZ Logo" loading="eager">
               
           
 
@@ -1754,6 +1752,7 @@ ${quantity}
 
 📝 Project Details:
 ${details}
+`;
 
 
 
@@ -1761,12 +1760,13 @@ ${details}
         "https://wa.me/2349039719158?text="
         + encodeURIComponent(message);
 
-window.location.href = whatsappURL;
 
+      window.open(
+    whatsappURL,
+    "_blank"
+);
 
 });
-
 </script>
-
 </body>
 </html>
